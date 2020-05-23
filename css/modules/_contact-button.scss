@@ -1,0 +1,20 @@
+.contact-button {
+	background-color:#050505;
+    cursor:pointer;
+    width: 100%;
+    padding:25px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    transition-duration: 0.2s;
+    border: none;
+}
+
+.contact-button a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.contact-button:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,19 @@
+.link-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    .link-list-item{
+        padding: 10px;
+
+        a{
+            color: inherit;
+        }
+
+        a:visited{
+            color: inherit;
+        }
+    }
+
+
+}
