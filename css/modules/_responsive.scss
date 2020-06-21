@@ -1,6 +1,5 @@
 @media (min-width: 483px) {
     main{
-        // margin: 0 auto;
         width: 490px;
     }
     .title{
@@ -32,7 +31,6 @@
     .introduction{
         margin-top: 50px !important;
         font-size: 25px;
-        text-align: justify;
     }
 
     .emoji-container{
@@ -66,14 +64,13 @@
 
 @media (min-width: 1115px) {
 
-    .darkMode-icon{
-        
-    position: fixed;
-    bottom: 60px;
-    right: 60px;
+    .darkMode-icon{      
+        position: fixed;
+        bottom: 60px;
+        right: 60px;
 
-    width: 80px;
-    height: 80px;
+        width: 80px;
+        height: 80px;
     }
 
     .darkMode-bg{
