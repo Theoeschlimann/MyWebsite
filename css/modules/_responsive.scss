@@ -1,6 +1,6 @@
 @media (min-width: 483px) {
     main{
-        margin: 0 auto;
+        // margin: 0 auto;
         width: 490px;
     }
     .title{
@@ -62,4 +62,25 @@
         margin-bottom: 80px;
         font-size: 25px;
     }
+}
+
+@media (min-width: 1115px) {
+
+    .darkMode-icon{
+        
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+
+    width: 80px;
+    height: 80px;
+    }
+
+    .darkMode-bg{
+        bottom: 60px;
+        right: 60px;
+        width: 80px;
+        height: 80px;
+    }
+
 }
