@@ -250,10 +250,10 @@ main {
   position: fixed;
   background-color: black;
   border-radius: 50%;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
   -webkit-transform: scale(1);
           transform: scale(1);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .darkMode-bg-active {
