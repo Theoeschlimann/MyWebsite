@@ -10,10 +10,3 @@ darkModeIcon.onclick = function () {
     contactButton.classList.toggle("contact-button-darkMode");
     body.classList.toggle("light");
 };
-
-//WIZZSOUND
-function PlaySound(soundobj) {
-    var thissound = document.getElementById(soundobj);
-    thissound.play();
-};
-
