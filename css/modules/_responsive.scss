@@ -28,6 +28,10 @@
         font-size: 35px;
     }
 
+    .sub-title:hover{
+        letter-spacing: 1px;
+    }
+
     .introduction{
         margin-top: 50px !important;
         font-size: 25px;
@@ -65,19 +69,17 @@
 @media (min-width: 1115px) {
 
     .darkMode-icon{      
-        position: fixed;
-        bottom: 60px;
-        right: 60px;
-
-        width: 80px;
-        height: 80px;
+        bottom: 60px !important;
+        right: 60px !important;
+        width: 80px !important;
+        height: 80px !important;
     }
 
     .darkMode-bg{
-        bottom: 60px;
-        right: 60px;
-        width: 80px;
-        height: 80px;
+        bottom: 60px !important;
+        right: 60px !important;
+        width: 80px !important;
+        height: 80px !important;
     }
 
 }

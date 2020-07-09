@@ -36,6 +36,8 @@ main {
 .sub-title {
   margin-top: 35px;
   font-size: 25px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .introduction {
@@ -134,7 +136,7 @@ main {
   width: 100%;
   padding: 25px 40px;
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
   color: #ffffff;
@@ -142,8 +144,8 @@ main {
 }
 
 .contact-button:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
 }
 
 .contact-button-darkMode {
@@ -180,6 +182,9 @@ main {
   .sub-title {
     font-size: 35px;
   }
+  .sub-title:hover {
+    letter-spacing: 1px;
+  }
   .introduction {
     margin-top: 50px !important;
     font-size: 25px;
@@ -210,17 +215,16 @@ main {
 
 @media (min-width: 1115px) {
   .darkMode-icon {
-    position: fixed;
-    bottom: 60px;
-    right: 60px;
-    width: 80px;
-    height: 80px;
+    bottom: 60px !important;
+    right: 60px !important;
+    width: 80px !important;
+    height: 80px !important;
   }
   .darkMode-bg {
-    bottom: 60px;
-    right: 60px;
-    width: 80px;
-    height: 80px;
+    bottom: 60px !important;
+    right: 60px !important;
+    width: 80px !important;
+    height: 80px !important;
   }
 }
 
@@ -230,6 +234,11 @@ main {
 
 .darkMode-icon {
   z-index: 3;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,6 +257,10 @@ main {
 
 .darkMode-bg {
   position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
   background-color: black;
   border-radius: 50%;
   -webkit-transform: scale(1);

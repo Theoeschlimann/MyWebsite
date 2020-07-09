@@ -5,6 +5,13 @@
 .darkMode-icon{
     z-index: 3;
 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 70px;
+    height: 70px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +24,11 @@
 
 .darkMode-bg{
     position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+
     background-color: black;
     border-radius: 50%;
     transform: scale(1);
