@@ -9,7 +9,6 @@ darkModeIcon.onclick = function () {
     darkModeBg.classList.toggle("darkMode-bg-active");
     contactButton.classList.toggle("contact-button-darkMode");
     body.classList.toggle("light");
-<<<<<<< HEAD
 
     // if (body.style.color = "black"){
     //     body.style.color = "white";
@@ -19,6 +18,3 @@ darkModeIcon.onclick = function () {
     //     console.log("is white");
     // }
 };
-=======
-};
->>>>>>> b19504d3b187f8419c49d1c343b370df516b84bd

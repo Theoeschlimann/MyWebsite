@@ -4,6 +4,7 @@
 
 .darkMode-icon{
     z-index: 3;
+    cursor: pointer;
 
     position: fixed;
     bottom: 30px;
@@ -33,6 +34,8 @@
     border-radius: 50%;
     transform: scale(1);
     transition: 1s ease;
+
+    box-shadow: 1px 1px 36px 2px rgba(0,0,0,0.20);
 }
 
 .darkMode-bg-active{
